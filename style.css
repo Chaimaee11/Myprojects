@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.header {
+  background-color: #0171f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.logo {
+  width: 100px;
+}
+.btn {
+  background-color: #ee626b;
+  border-radius: 15px;
+  padding: 7px 15px;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: #f2858c;
+}
+
+.header-links a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.header-links a:hover {
+  background-color: #2386fe;
+}
+
+.landing-page {
+  background-color: #0171f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  color: #ffffff;
+  border-radius: 0 0 50px 50px;
+}
+
+.landing-page-left-section {
+  width: 500px;
+}
+
+.landing-page-search input {
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.landing-page-search button {
+  position: absolute;
+  left: 200px;
+  height: 30px;
+}
+
+.landing-page-image-container img {
+  border-radius: 20px;
+  width: 250px;
+}
+
+.trending-container {
+  
+  padding: 50px 0 50px 0;
+  margin-top: 70px;
+}
+
+span {
+  color: #ee626b;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 25px 50px 0;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 10px 50px 25px 50px;
+}
+
+.trending-header h1 {
+  margin-top: 0;
+}
+
+.trending-cards {
+  display: flex;
+  gap: 12px;
+  margin: 0px 30px 0px 60px;
+}
+
+.card {
+  width: 300px;
+  background-color: #eeeeee;
+  border-radius: 20px;
+}
+
+.card .thumb {
+  border-radius: 20px 20px 0 0;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+
+.card-info img {
+  width: 50px;
+}
+.most-played-container {
+  
+  background-color: #eeeeee;
+  border-radius: 50px;
+  padding: 50px 0 50px 0;
+  margin-top: 70px;
+}
+.most-played-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 10px 50px 25px 50px;
+}
+.most-played-header h1 {
+  margin-top: 0%;
+}
+.most-played-card {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  margin: 0px 30px 0px 70px;
+}
+.top-game-card img {
+  border-radius: 20px;
+}
+.top-game-card-name p {
+  color: #808080;
+}
+.categories{
+  margin-top: 100px;
+}
+.categories-header {
+  display: block;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.categories-header h1 {
+  margin-top: 0;
+}
+.top-categories-card{
+  display: flex;
+  gap: 20px; 
+  margin: 0 30px 0 40px;
+    
+}
+.div-action {
+  background-color: #2386fe;
+  width: 235px;
+  border-radius: 20px 20px 0 0;
+  padding: 20px 0px 30px 0px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.action img {
+  border-radius: 20px;
+  position: relative;
+    top: -20px;
+}
+
+.action {
+  transition: .3s;
+}
+.categories .action:hover{
+  transform: scale(1.05);
+}
+.footer{
+  background-color: #2386fe;
+  border-radius: 100px 100px 0 0 ;
+  height: 100px;
+  color: #ffffff;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  padding-top: 70px;
+  
+}
